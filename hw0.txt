@@ -1,3 +1,29 @@
 # Description of your program (part 7)
 
+To count the number of words in a document, I would first have a counter that starts at 0.
+I would then read through the document, and the counter will add 1 to its current count whenever there is a space between a character,
+or if there is a period, exclamation point, or question mark attached to the end of a character.
+
+For example in this sentence:
+
+Hello, my name is Lena Tran.
+
+I would have my counter start at 0. Then, the space between Hello, and my would add 1 to the counter. The counter would now be 1.
+Then, it would count the spaces in between all the other words and the total count would be 5. Then, since Tran. ends in a period it would add
+1 more to the total count of 5, giving a total of 6 words.
+
 # Reflection on writing your program (part 8)
+
+This previous exercise was actually pretty difficult to me. At first I didn't know if I wanted to write the description in steps
+or if I wanted to just write it in sentences. Then, I had a hard time because of the specs because I didn't really know what constitutes as
+a word. For example, would a word with a hyphen count as one or two words? So I then went on google docs and see how they counted words,
+and just followed the rules they used. Another problem I ran into was if sentences didn't end with periods. So an example would be:
+"hello world"
+My counter would only count this as 1 word because it didn't end with a period. I wrote the description of my counter under the assumption
+that the word documents would use full and complete sentences. I am unsure how to address this issue of incomplete sentences.
+The satisfying thing about trying to describe these instructions in english is that it gives me a better idea of how I might actually
+have to code it if I were to make a computer program. The unsatisfying thing is having to deal with any oddballs.
+
+I hope to become a better coder through this course. I want to be able to think more logically and critically when it comes to coding.
+Coding is something that I really struggle with, so I hope that I can learn the skills to confidently code by myself. In addition,
+I want to learn how to be able to read code and understand what it is saying. 
